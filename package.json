@@ -1,0 +1,23 @@
+{
+  "name": "etherjs-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishitchittora/etherjs-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/nishitchittora/etherjs-code/issues"
+  },
+  "homepage": "https://github.com/nishitchittora/etherjs-code#readme"
+}
