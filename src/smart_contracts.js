@@ -13,8 +13,6 @@ const ERC20_ABI = [
   "function isPauser(address) view returns (bool)",
 ];
 
-console.log("in here");
-
 const contract = new ethers.Contract(
   process.env.SMART_CONTRACT,
   ERC20_ABI,
@@ -32,7 +30,7 @@ const smart_contract = async () => {
 
   console.log("name: ", name);
   console.log("symbol: ", symbol);
-  console.log("decimals: ", ethers.utils.formatEther(decimals));
+  console.log("decimals: ", decimals);
   console.log("totalSupply: ", ethers.utils.formatEther(totalSupply));
   console.log("paused: ", paused);
   console.log("balanceOf: ", ethers.utils.formatEther(balanceOf));
