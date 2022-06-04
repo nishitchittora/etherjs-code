@@ -25,3 +25,5 @@ const main = async () => {
   const senderBalancerAfter = await provider.getBalance(account1);
   const receiveBalancerAfter = await provider.getBalance(account2);
 };
+
+main();
