@@ -37,7 +37,7 @@ $ node src/accounts_balances.js
 $ node src/2_read_smart_contract.js
 ```
 
-### 3_transfer.js - Transfers 0.025 ether from account1 to account2
+### 3_transfer.js - Transfers ether from account1 to account2
 
 - Input your infura project URL
 - Input your account1 public key
